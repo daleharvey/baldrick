@@ -1,0 +1,25 @@
+{
+  "name": "baldrick",
+  "description": "A terrible CI server",
+  "version": "0.0.4",
+  "homepage": "https://github.com/daleharvey/baldrick",
+  "author": {
+    "name": "Dale Harvey",
+    "email": "dale@arandomurl.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daleharvey/baldrick.git"
+  },
+  "main": "./baldrick.js",
+  "bin": {
+    "couch-persona": "./baldrick.js"
+  },
+  "dependencies": {
+    "commander": "*",
+    "mkdirp": "*",
+    "express": "*",
+    "request": "*",
+    "winston": "*"
+  }
+}

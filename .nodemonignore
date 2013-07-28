@@ -1,0 +1,8 @@
+master.status
+
+workspaces
+
+*_flymake.js
+
+*.log
+*.sh
